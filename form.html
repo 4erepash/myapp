@@ -1,0 +1,98 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Какой вайб? {% endblock %}
+
+{% block content %}
+<form method = 'POST'>
+    <fieldset>
+    <legend><p>Заполните информацию о себе</p></legend>
+    </p>Ваше имя</p>
+    <p><input type="text" name="name"></p>
+    </p>Ваше возраст</p>
+    <p><input type="text" name="age"></p>
+    <form method = 'POST'>
+    <fieldset>
+    <legend><p>Какой вайб у Шрека?</p></legend>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/smiles.jpg">
+    <p><p><input type="radio" name="sh_s">A</p>
+    <p><input type="radio" name="sh_s">B</p>
+    <p><input type="radio" name="sh_s">C</p>
+    <p><input type="radio" name="sh_s">D</p>
+    <p><input type="radio" name="sh_s">E</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/drinks.jpg">
+    <p><input type="radio" name="sh_d">1</p>
+    <p><input type="radio" name="sh_d">2</p>
+    <p><input type="radio" name="sh_d">3</p>
+    <p><input type="radio" name="sh_d">4</p>
+    <p><input type="radio" name="sh_d">5</p>
+    <p><input type="radio" name="sh_d">6</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/cats.jpg">
+    <p><input type="radio" name="sh_c">$<p>
+    <p><input type="radio" name="sh_c">&amp<p>
+    <p><input type="radio" name="sh_c">#<p>
+    <p><input type="radio" name="sh_c">%<p>
+    <p><input type="radio" name="sh_c">*<p>
+    </fieldset>
+</form>
+<form method = 'POST'>
+    <fieldset>
+    <legend><p>Какой вайб у Наруто?</p></legend>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/smiles.jpg">
+    <p><input type="radio" name="na_s">A</p>
+    <p><input type="radio" name="na_s">B</p>
+    <p><input type="radio" name="na_s">C</p>
+    <p><input type="radio" name="na_s">D</p>
+    <p><input type="radio" name="na_s">E</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/drinks.jpg">
+    <p><input type="radio" name="na_d">1</p>
+    <p><input type="radio" name="na_d">2</p>
+    <p><input type="radio" name="na_d">3</p>
+    <p><input type="radio" name="na_d">4</p>
+    <p><input type="radio" name="na_d">5</p>
+    <p><input type="radio" name="na_d">6</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/cats.jpg">
+    <p><input type="radio" name="na_c">$<p>
+    <p><input type="radio" name="na_c">&amp<p>
+    <p><input type="radio" name="na_c">#<p>
+    <p><input type="radio" name="na_c">%<p>
+    <p><input type="radio" name="na_c">*<p>
+    </fieldset>
+</form>
+<form method = 'POST'>
+    <fieldset>
+    <legend><p>Какой вайб у Пьеро?</p></legend>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/smiles.jpg">
+    <p><input type="radio" name="p_s">A</p>
+    <p><input type="radio" name="p_s">B</p>
+    <p><input type="radio" name="p_s">C</p>
+    <p><input type="radio" name="p_s">D</p>
+    <p><input type="radio" name="p_s">E</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/drinks.jpg">
+    <p><input type="radio" name="p_d">1</p>
+    <p><input type="radio" name="p_d">2</p>
+    <p><input type="radio" name="p_d">3</p>
+    <p><input type="radio" name="p_d">4</p>
+    <p><input type="radio" name="p_d">5</p>
+    <p><input type="radio" name="p_d">6</p>
+    <p>Выберете картинку, лучше всего отражающую персонажа</p>
+    <img src="/static/cats.jpg">
+    <p><input type="radio" name="p_c">$<p>
+    <p><input type="radio" name="p_c">&amp<p>
+    <p><input type="radio" name="p_c">#<p>
+    <p><input type="radio" name="p_c">%<p>
+    <p><input type="radio" name="p_c">*<p>
+
+    <p><input type="submit" value="Отправить"></p>
+    </fieldset>
+</form>
+<p><a href='/'>Инструкция</a></p>
+{% endblock %}
